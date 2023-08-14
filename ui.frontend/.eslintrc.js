@@ -11,6 +11,8 @@ module.exports =  {
         "curly": 1,
         "@typescript-eslint/explicit-function-return-type": [0],
         "@typescript-eslint/no-explicit-any": [0],
+        "@typescript-eslint/no-this-alias": 0,
+        "@typescript-eslint/no-empty-function": 0,
         "ordered-imports": [0],
         "object-literal-sort-keys": [0],
         "max-len": [1, 120],
@@ -19,7 +21,7 @@ module.exports =  {
         "no-cond-assign": 1,
         "no-trailing-spaces": 0,
         "eol-last": 1,
-        "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
+        "func-style": 0,
         "semi": 1,
         "no-var": 0
     },
